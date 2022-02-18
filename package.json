@@ -9,15 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@octokit/core": "^3.5.1",
+    "@octokit/request": "^5.6.3",
     "next": "12.1.0",
-    "octokit": "^1.7.1",
+    "prettier": "^2.5.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "swr": "^1.2.1",
-    "tailwindcss": "^3.0.23"
+    "swr": "^1.2.1"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.2",
     "eslint": "8.9.0",
-    "eslint-config-next": "12.1.0"
+    "eslint-config-next": "12.1.0",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.23"
   }
 }
